@@ -1,5 +1,5 @@
 #write name to file
 
-fd = open("name.txt","w")
-fd.write("aneena")
-fd.close()
+with open("name.txt","w") as fd:
+        fd.write("aneena")
+
